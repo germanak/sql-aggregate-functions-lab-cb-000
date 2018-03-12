@@ -9,6 +9,7 @@ def lowest_student_gpa
 end
 
 def average_student_gpa
+  "SELECT AVG(gpa) AS average_gpa FROM cats"
 end
 
 def total_tardies_for_all_students
